@@ -1,0 +1,55 @@
+.navbar {
+    width: 60px;
+    height: 100%;
+    background-color: var(--dark);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    transition: linear 0.1s;
+}
+.navbar:hover {
+    width: 200px;
+}
+.navbar:hover p {
+    display: block;
+}
+.navmenu {
+    width: 80%;
+}
+.navmenu .item {
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.navmenu .item-wraper .item svg {
+    color: #f45060;
+    width: 60px;
+    height: 20px;
+    /* position: absolute; */
+}
+.navmenu p {
+    letter-spacing: 1px;
+    /* transition: linear 0.1s; */
+    display: none;
+    /* opacity: 0; */
+}
+/* .navbar:hover {
+    width: 190px;
+}
+.navbar:hover span {
+    opacity: 1;
+} */
+.item-wraper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.tab-checked {
+    color: #f45060;
+}
